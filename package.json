@@ -13,7 +13,8 @@
     ".": "./src/tokens.ts"
   },
   "scripts": {
-    "test": "node --experimental-strip-types --test src/tokens.test.ts"
+    "test": "node --experimental-strip-types --test src/tokens.test.ts",
+    "vendor": "node scripts/vendor.mjs"
   },
   "engines": {
     "node": ">=20"
