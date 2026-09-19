@@ -1,0 +1,21 @@
+{
+  "name": "smf-kit-secrets",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Shared token/key heuristics for SMF viral apps (Redact Before Share, Skill Lint).",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smfworks/smf-kit-secrets.git"
+  },
+  "exports": {
+    ".": "./src/tokens.ts"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/tokens.test.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
